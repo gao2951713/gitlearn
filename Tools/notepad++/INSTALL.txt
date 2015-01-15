@@ -1,0 +1,12 @@
+main.zip是主程序
+解压到任意文件夹下双击notepad++.exe即可运行
+
+AppData.zip里面的Notepad++文件夹是配置文件
+按Windows键+E打开资源管理器
+在地址栏输入 %appdata% 回车
+直接把Notepad++文件夹(是这个文件夹而不是文件夹里面的内容)拖进去
+我的系统是win7
+%appdata%的路径是C:\Users\Administrator\AppData\Roaming
+所以最终的效果应该有这个文件
+C:\Users\Administrator\AppData\Roaming\Notepad++\config.xml
+好吧 配置好了之后就可以双击主程序里面的notepad++.exe了
