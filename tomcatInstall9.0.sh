@@ -1,7 +1,7 @@
 ﻿#!/bin/bash
 # shell script to install jira
 basepath="/opt/"
-tomcat_ver="9.0.0.M9"
+tomcat_ver="8.5.5"
 install_ver="apache-tomcat-$tomcat_ver"
 tomcatpath='/opt/'$install_ver
 prefix='.tar.gz'
@@ -24,7 +24,7 @@ function downloadTomcat(){
 	  echo "$install_ver$prefix [found]"
 	else
 	  echo "Error: $install_ver$prefix not found!!!download now......"
-	  wget http://apache.fayea.com/tomcat/tomcat-9/v$tomcat_ver/bin/$install_ver$prefix
+	  wget http://apache.fayea.com/tomcat/tomcat-8/v$tomcat_ver/bin/$install_ver$prefix
 	fi
 }
 
